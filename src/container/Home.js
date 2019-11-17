@@ -29,10 +29,8 @@ export default class Home extends Component {
                 </Carousel>
                 <WhiteSpace/>
                 <WingBlank>
-                    <div className="sub-title">我的订单 </div>
-                    <WhiteSpace/>
                     <div style={{width:'100%'}}>
-                    <img src={require('../img/stu.png')} style={{width:'100%'}}/>
+                        <img src={require('../img/stu.png')} style={{width:'100%'}}/>
                     </div>
                 </WingBlank>
                 <WhiteSpace/>
