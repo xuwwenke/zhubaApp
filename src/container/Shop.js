@@ -38,8 +38,6 @@ export default class Shop extends Component {
                 <WhiteSpace/>
                 <WingBlank>
                     <div style={{width:"100%"}}>
-                        <div className="sub-title">我的订单 </div>
-                        <WhiteSpace/>
                         <Grid data={data}
                         columnNum={5}
                         renderItem={dataItem => (
