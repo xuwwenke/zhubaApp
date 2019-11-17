@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { NavBar,Carousel,Grid,SearchBar, WhiteSpace, WingBlank } from 'antd-mobile';
 const name=['桌','床','椅','几','柜','书架','沙发','家居饰品','户外家具','全部分类'];
 const data = Array.from(new Array(10)).map((_val, i) => ({
-    icon: '../img/circle'+i+'.png',
+    icon: 'img/circle'+i+'.png',
     text: name[i],
 })); 
 

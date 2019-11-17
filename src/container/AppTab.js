@@ -32,13 +32,13 @@ export default class AppTab extends React.Component {
                 icon={<div style={{
                 width: '22px',
                 height: '22px',
-                background: 'url(../img/shouye.png) center center /  21px 21px no-repeat' }}
+                background: 'url(img/shouye.png) center center /  21px 21px no-repeat' }}
                 />
                 }
                 selectedIcon={<div style={{
                 width: '22px',
                 height: '22px',
-                background: 'url(../img/shouye.png) center center /  21px 21px no-repeat'}}
+                background: 'url(img/shouye.png) center center /  21px 21px no-repeat'}}
                 />
                 }
                 selected={this.state.selectedTab === 'blueTab'}
@@ -55,14 +55,14 @@ export default class AppTab extends React.Component {
               <div style={{
                 width: '22px',
                 height: '22px',
-                background: 'url(../img/deng.png) center center /  21px 21px no-repeat' }}
+                background: 'url(img/deng.png) center center /  21px 21px no-repeat' }}
               />
             }
             selectedIcon={
               <div style={{
                 width: '22px',
                 height: '22px',
-                background: 'url(../img/deng.png) center center /  21px 21px no-repeat' }}
+                background: 'url(require(img/deng.png)) center center /  21px 21px no-repeat' }}
               />
             }
             title="灵感"
@@ -82,14 +82,14 @@ export default class AppTab extends React.Component {
               <div style={{
                 width: '22px',
                 height: '22px',
-                background: 'url(../img/store_icon.png) center center /  21px 21px no-repeat' }}
+                background: 'url(img/store_icon.png) center center /  21px 21px no-repeat' }}
               />
             }
             selectedIcon={
               <div style={{
                 width: '22px',
                 height: '22px',
-                background: 'url(../img/store_icon.png) center center /  21px 21px no-repeat' }}
+                background: 'url(img/store_icon.png) center center /  21px 21px no-repeat' }}
               />
             }
             title="商城"
@@ -108,14 +108,14 @@ export default class AppTab extends React.Component {
               <div style={{
                 width: '22px',
                 height: '22px',
-                background: 'url(../img/wode.png) center center /  21px 21px no-repeat' }}
+                background: 'url(img/wode.png) center center /  21px 21px no-repeat' }}
               />
             }
             selectedIcon={
               <div style={{
                 width: '22px',
                 height: '22px',
-                background: 'url(../img/wode.png) center center /  21px 21px no-repeat' }}
+                background: 'url(img/wode.png) center center /  21px 21px no-repeat' }}
               />
             }
             title="我的"

@@ -5,7 +5,7 @@ import Setting from './Setting'
 
 const name=['购物车','优惠券','在线服务','我的收藏','我的关注','收货地址','沙发','家居饰品','户外家具','全部分类'];
 const data = Array.from(new Array(10)).map((_val, i) => ({
-    icon: '../img/circle'+i+'.png',
+    icon: 'img/circle'+i+'.png',
     text: name[i],
 }));  
 export default class Mine extends Component {
